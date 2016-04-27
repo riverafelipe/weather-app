@@ -17,6 +17,8 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        
+        // adds the dash between spaces
         var cityArray = city.componentsSeparatedByString(" ")
         
         if city.containsString(" ") {
